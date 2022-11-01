@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--below is the code for my favicon on the page tab, css styling, and title-->
+<title>Alex Sears Portfolio</title>
+
+<head>
+  <!--below is the code for my favicon on the page tab-->
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+  <header class="page__header">
+
+    <img src="img/Logo.PNG" alt="logo" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+
+    <!--Add portrait photo here-->
+    <img src="img/portrait.jpg" width="300px" alt="A photograph of me" />
+    <header class="page header">
+      <meta charset="utf-8" />
+      <h1>Contact</h1>
+
+      <div>
+        Alexandra Sears <br />
+        2870 Blarney Way<br />
+        Duluth, GA<br />
+        USA<br />
+        <br />
+        Tel <a href="tel:+1 304-614-4075">3046144075</a><br />
+        <a href="mailto:alexandra.d.sears@gmail.com">alexandra.d.sears@gmail.com</a>
+      </div>
+    </header>
+  </main>
+  <form action="" method="post" id="contact-form">
+    <label class="standard label">E-mail: </label>
+    <input type="email" required />
+
+    <label class="standard label">Telephone: </label>
+    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+
+    <label class="standard label">Message: </label>
+    <textarea maxlength="250" required></textarea>
+
+    <input type="submit" value="Send message" />
+  </form>
+
+
+  <footer class="page-footer">
+    <div class="social media">
+      <p>Find me on</p>
+      <a href="https://github.com/PlaidPeacoat" target="_blank"><img width="30px" height="30px" src="img/githublogo.svg"
+          alt="git hub logo link"></a>
+      <img width="30px" height="30px" src="img/twitterlogo.svg" alt="twitter logo link">
+      <a href="https://www.linkedin.com/in/alexandra-sears/" target="_blank"><img width="30px" height="30px"
+          src="img/linkedinlogo.svg" alt="linked in logo link"></a>
+
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
