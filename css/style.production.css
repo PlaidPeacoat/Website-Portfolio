@@ -21,13 +21,13 @@
 body {
     background-color: var(--secondary-color);
     font-family: 'Oswald', sans-serif;
-    font-weight: --font-weight;
+    font-weight: var(--font-weight);
     font-size: 18px;
     line-height: 1.6;
 }
 
 h1 {
-    font-size: var(--primary-color);
+    font-size: var(--h1-font);
     font-weight: var(--font-weight);
 }
 
