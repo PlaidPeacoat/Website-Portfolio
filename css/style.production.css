@@ -83,7 +83,7 @@ a:active {
     clear: both;
     margin-top: 30px;
     margin-left: 300px;
-
+    color: var(--primary-color);
 }
 
 .pet-dog-svg {
