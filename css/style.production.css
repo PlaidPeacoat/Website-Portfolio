@@ -71,18 +71,18 @@ a:active {
 
 /*makes profile picture have text on the right, sets the size and turns into a circle*/
 .profile__portrait {
-    float: left;
-    width: 20%;
+    float: right;
+    width: 70%;
     height: auto;
     margin-right: 50px;
-    margin-left: 300px;
+    margin-left: 40px;
     border-radius: 50%;
 }
 
 .links {
     clear: both;
+    text-align: center;
     margin-top: 30px;
-    margin-left: 300px;
     color: var(--primary-color);
 }
 
@@ -124,6 +124,14 @@ a:active {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100px;
     flex: 1 1 100px;
+}
+
+.about-body {
+    text-align: center;
+}
+
+.about-page {
+    text-align: center;
 }
 
 .page-header {

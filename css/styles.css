@@ -66,7 +66,7 @@ a:active {
 /*makes profile picture have text on the right, sets the size and turns into a circle*/
 .profile__portrait {
     float: left;
-    width: 50%;
+    width: 290px;
     height: auto;
     margin-right: 40px;
     border-radius: 50%;
