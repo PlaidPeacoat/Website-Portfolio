@@ -42,7 +42,7 @@
     </nav>
 
   </header>
-  <main>
+  <main class="contact__page">
 
     <!--Add portrait photo here-->
     <img src="img/portrait.jpg" width="300" alt="A photograph of me">
@@ -59,19 +59,20 @@
         <a href="mailto:alexandra.d.sears@gmail.com">alexandra.d.sears@gmail.com</a>
       </div>
     </header>
+    <form method="post" id="contact-form">
+      <label class="standard label">E-mail: </label>
+      <input type="email" required placeholder="name@email.com">
+      <br>
+      <label class="standard label">Telephone: </label>
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <br>
+      <label class="standard label">Message: </label>
+      <textarea maxlength="250" required></textarea>
+      <br>
+      <input type="submit" value="Send message">
+    </form>
   </main>
-  <form method="post" id="contact-form">
-    <label class="standard label">E-mail: </label>
-    <input type="email" required>
 
-    <label class="standard label">Telephone: </label>
-    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-    <label class="standard label">Message: </label>
-    <textarea maxlength="250" required></textarea>
-
-    <input type="submit" value="Send message">
-  </form>
 
 
   <footer class="page-footer">
