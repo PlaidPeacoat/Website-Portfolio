@@ -45,6 +45,18 @@ a {
     color: var(--primary-color);
 }
 
+.message__box {
+    width: 100%;
+}
+
+.contact__table {
+    text-align: right;
+}
+
+.skills__table {
+    margin: 0 auto;
+    width: 40%;
+}
 
 a:visited {
     /* visited link */

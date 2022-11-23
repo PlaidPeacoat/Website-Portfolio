@@ -55,21 +55,40 @@
         Duluth, GA<br>
         USA<br>
         <br>
-        Tel <a href="tel:+1304-614-4075">3046144075</a><br>
-        <a href="mailto:alexandra.d.sears@gmail.com">alexandra.d.sears@gmail.com</a>
+        <table>
+          <tr>
+            <td>Phone:</td>
+            <td><a href="tel:+1304-614-4075">3046144075</a></td>
+          </tr>
+          <tr>
+            <td>Email:
+            </td>
+            <td><a href="mailto:alexandra.d.sears@gmail.com">alexandra.d.sears@gmail.com</a></td>
+          </tr>
+        </table>
+
+
       </div>
     </header>
     <form method="post" id="contact-form">
-      <label class="standard label">E-mail: </label>
-      <input type="email" required placeholder="name@email.com">
-      <br>
-      <label class="standard label">Telephone: </label>
-      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-      <br>
-      <label class="standard label">Message: </label>
-      <textarea maxlength="250" required></textarea>
-      <br>
-      <input type="submit" value="Send message">
+      <table>
+        <tr>
+          <td class="contact__table">Email Address:</td>
+          <td><input type="email" required placeholder="name@email.com"></td>
+        </tr>
+        <tr>
+          <td class="contact__table">Telephone:</td>
+          <td><input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"></td>
+        </tr>
+        <tr>
+          <td class="contact__table">Message:</td>
+          <td><textarea class="message__box" maxlength="250" required></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" value="Send message"></td>
+        </tr>
+      </table>
     </form>
   </main>
 
