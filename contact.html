@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 
@@ -16,14 +17,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/promise-polyfill.js"></script>
+  <script src="js/fetch-polyfill.js"></script>
+
 </head>
 
 
 
 <body>
-  <script src="js/promise-polyfill.js"></script>
-  <script src="js/fetch-polyfill.js"></script>
-  <script src="js/scripts.js"></script>
   <header class="page__header">
 
     <a href="index.html"><img src="img/Logo.PNG" alt="logo" class="page-header__item"></a>
@@ -77,11 +78,11 @@
       <table>
         <tr>
           <td class="contact__table">Email Address:</td>
-          <td><input type="email" required placeholder="name@email.com"></td>
+          <td><input type="email" id="email" required placeholder="name@email.com"></td>
         </tr>
         <tr>
           <td class="contact__table">Telephone:</td>
-          <td><input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"></td>
+          <td><input type="tel" id="telephone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"></td>
         </tr>
         <tr>
           <td class="contact__table">Message:</td>
@@ -109,6 +110,7 @@
     </div>
   </footer>
   <script src="js/tota11y.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

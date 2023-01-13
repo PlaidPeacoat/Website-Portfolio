@@ -125,7 +125,9 @@ a:active {
 .grid {
     display: inline-grid;
 }
-
+.pokedex__item {
+    background-image: url("pokedexpreview.png");
+}
 .grid__item {
     background-color: lightgray;
     padding: 20px;
