@@ -178,6 +178,12 @@ a:active {
     margin-left: 15px;
 }
 
+.aboutMeList {
+   list-style: none; 
+   align-items: left;
+   text-align: left;
+
+}
 
 .grid__item {
     background-color: var(--fourth-color);
